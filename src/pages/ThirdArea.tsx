@@ -1,5 +1,6 @@
 import { FC, Suspense, useEffect, useState } from 'react';
 import { animated, useSpring } from 'react-spring';
+import Image from'next/image';
 
 const ThirdArea: FC = () => {
   const [screenY, setScreenY] = useState<number>(0);
@@ -51,7 +52,9 @@ const ThirdArea: FC = () => {
             height: styles.height,
             opacity: styles.opacity,
           }}
-        />
+        >
+          {/* <Image src='/sun_landscape.png' alt='夕日' width='400%' height='800%' /> */}
+        </animated.div>
         <animated.div
           style={{
             position: 'absolute',

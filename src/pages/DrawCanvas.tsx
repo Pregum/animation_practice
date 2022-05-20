@@ -7,6 +7,7 @@ import ThirdArea from './ThirdArea';
 import ForthArea from './ForthArea';
 import FifthArea from './FifthArea';
 import SixthArea from './SixthArea';
+import SeventhArea from './SeventhArea';
 
 const DrawCanvas: FC = () => {
   const [screenY, setScreenY] = useState<number>(0);
@@ -108,7 +109,7 @@ const DrawCanvas: FC = () => {
   return (
     <div
       style={{
-        height: '600vh',
+        height: '800vh',
         display: 'flex',
         width: '100vw',
         overflow: 'scroll',
@@ -179,6 +180,7 @@ const DrawCanvas: FC = () => {
       <ForthArea />
       <FifthArea />
       <SixthArea />
+      <SeventhArea />
     </div>
   );
 };
