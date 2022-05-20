@@ -5,8 +5,10 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 import * as THREE from 'three';
+import DrawCanvas from './DrawCanvas';
 
 const Home: NextPage = () => {
+  return (<DrawCanvas />);
   return (
     <div className={styles.container}>
       <Head>
