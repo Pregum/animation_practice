@@ -42,7 +42,7 @@ const ThirdArea: FC = () => {
       }}
     >
       <div style={{ display: 'flex' }}>
-        <animated.div
+        <animated.img
           style={{
             position: 'absolute',
             width: '14vw',
@@ -52,9 +52,10 @@ const ThirdArea: FC = () => {
             height: styles.height,
             opacity: styles.opacity,
           }}
+          src='/sun_landscape.png'
         >
           {/* <Image src='/sun_landscape.png' alt='夕日' width='400%' height='800%' /> */}
-        </animated.div>
+        </animated.img>
         <animated.div
           style={{
             position: 'absolute',
