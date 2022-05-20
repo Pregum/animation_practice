@@ -40,29 +40,7 @@ const ForthArea: FC = () => {
         backgroundColor: '#222222',
       }}
     >
-      {/* ここに第２のエリアを挟む */}
-      <span
-        style={{
-          position: 'absolute',
-          top: 120,
-          left: '70vw',
-          fontSize: 34,
-          color: '#ffffff',
-        }}
-      >
-        きれいなタイルって
-      </span>
-      <span
-        style={{
-          position: 'absolute',
-          top: 180,
-          left: '70vw',
-          fontSize: 34,
-          color: '#ffffff',
-        }}
-      >
-        美味しそう。 -- {screenY}
-      </span>
+
       <div style={{ display: 'Flex' }}>
         <animated.div
           style={{
@@ -87,6 +65,29 @@ const ForthArea: FC = () => {
           }}
         />
       </div>
+      {/* ここに第２のエリアを挟む */}
+      <span
+        style={{
+          position: 'absolute',
+          top: 300,
+          left: '45vw',
+          fontSize: 34,
+          color: '#ffffff',
+        }}
+      >
+        ほら。
+      </span>
+      <span
+        style={{
+          position: 'absolute',
+          top: 360,
+          left: '45vw',
+          fontSize: 34,
+          color: '#ffffff',
+        }}
+      >
+        どんな朝も気持ち良くなる。 -- {screenY}
+      </span>
     </div>
   );
 };

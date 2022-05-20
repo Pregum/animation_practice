@@ -6,6 +6,7 @@ import SecondArea from './SecondArea';
 import ThirdArea from './ThirdArea';
 import ForthArea from './ForthArea';
 import FifthArea from './FifthArea';
+import SixthArea from './SixthArea';
 
 const DrawCanvas: FC = () => {
   const [screenY, setScreenY] = useState<number>(0);
@@ -177,6 +178,7 @@ const DrawCanvas: FC = () => {
       <ThirdArea />
       <ForthArea />
       <FifthArea />
+      <SixthArea />
     </div>
   );
 };
