@@ -8,6 +8,14 @@ import * as THREE from 'three';
 import DrawCanvas from './DrawCanvas';
 
 const Home: NextPage = () => {
+
+  useEffect(() => {
+    window.addEventListener('wheel', (e) => {
+      console.log('on wheel....e: ', e.screenY, 'offsetY: ', e.offsetY, 'deltaY', e.deltaY);
+      // setScreenY(e.offsetY);
+    });
+  }, []);
+
   return (<DrawCanvas />);
   return (
     <div className={styles.container}>
