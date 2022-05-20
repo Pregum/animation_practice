@@ -1,7 +1,10 @@
 import type { NextPage } from 'next'
+import { useEffect } from 'react';
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+
+import * as THREE from 'three';
 
 const Home: NextPage = () => {
   return (
